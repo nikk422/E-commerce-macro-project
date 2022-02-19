@@ -1,0 +1,145 @@
+:root{
+    --special-width:100%;
+    --special-fontsize:1.2rem;
+    --secondary-font-size:1.8rem;
+    --cursor:pointer;
+    --border:0px;
+    --special-padding:0.5rem;
+    --primary-color:rgb(35, 35, 65);
+    --white-color:white;
+    --gap:1rem;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: var(--special-width);
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+} 
+.navigation-bar {
+    display: flex;
+    background-color: var(--primary-color);
+    justify-content: space-between;
+    padding: .7rem;
+}
+.side-nav-section {
+    display: flex;
+    width: 17rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.title {
+    font-size:var(--secondary-font-size);
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+    color: var(--white-color);
+}
+.search-bar {
+    width: 40%;
+    font-size: var(--special-fontsize);
+    padding: .5rem;
+    margin: 1rem 0;
+}
+.login-btn {
+    font-size: var(--special-fontsize);
+    padding: .5rem .8rem;
+}
+.btn {
+    font-size:var(--secondary-font-size);
+    font-weight: 600;
+    position: relative;
+}
+.badge-wishlist {
+    font-size: var(--special-fontsize);
+    background-color: blue;
+    padding: .2rem .4rem;
+    color: var(--white-color);
+    border-radius: 50%;
+    position: absolute;
+    left: 1.3rem;
+    top: -1rem;
+}
+.section-men{
+    display: flex;
+    gap:var(--gap);
+    margin-top: 0.5rem;
+    justify-content: space-between;
+}
+.bg-img{
+    display: flex;
+    align-items: center;
+    width:17%;
+    height:8rem;
+    background-image: url("/landing-page/watch6.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.mid{
+    background-color:white;
+    width:100%;
+    text-align:center;
+    font-size: var(--special-fontsize);
+}
+.watch-container{
+    position: relative;
+}
+.shop-contain{
+    position:absolute;
+    top:1.5rem;
+    right:2rem;
+    color: var(--white-color);
+    font-size: var(--special-fontsize);
+    line-height:.1rem;
+    text-align:center;    
+}
+.ShopBtn{
+    padding:0.5rem;
+    background-color:rgb(204, 61, 61);
+    border-radius:0.5rem;
+    font-size: var(--special-fontsize);
+    font-weight:bold;
+    cursor:var(--cursor);
+    color:rgb(233, 221, 221);
+    
+}
+.ShopBtn:hover{
+    background-color:rgb(230, 214, 214);
+    color: rgb(196, 59, 59);
+}
+.watch{
+    margin-top: 1rem;
+    width:100%;
+    height:80vh;
+}
+.watch-footer{
+    width: 100%;
+    margin-top:0.4rem;
+    display:flex;
+    gap:var(--gap);
+}
+.watch-store{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(141, 115, 115);
+    color: var(--white-color);
+    gap:var(--gap);
+}
+.footer-heading{
+    margin-top: 11rem;
+}
+.watch-foot{
+    padding:0.2rem;
+    height: 50vh;
+}
+.para{
+    font-size: var(--special-fontsize);
+}
+
+
