@@ -1,0 +1,108 @@
+:root{
+    --special-width:100%;
+    --special-fontsize:1.3rem;
+    --secondary-fontsize:1.2rem;
+    --cursor:pointer;
+    --border:0px;
+    --border-radius:50%;
+    --special-padding:0.5rem;
+    --primary-color:rgb(35, 35, 65);
+    --white-color:white;
+    --light-grey:rgb(235, 224, 224);
+    --text-align:center;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navigation-bar {
+    display: flex;
+    background-color: var(--primary-color);
+    justify-content: space-between;
+    padding: var(--special-padding);
+}
+.side-nav-section {
+    display: flex;
+    width: 17rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+    color:var(--white-color);
+}
+.search-bar {
+    width: 40%;
+    font-size: var(--secondary-fontsize);
+    padding: var(--special-padding);
+    margin: 1rem 0;
+}
+.login-btn {
+    font-size: var(--secondary-fontsize);
+    padding: .5rem .8rem;
+}
+.btn {
+    font-size: 1.8rem;
+    font-weight: 600;
+    position: relative;
+}
+.badge-wishlist {
+    font-size: var(--secondary-fontsize);
+    background-color: blue;
+    padding: .2rem .4rem;
+    color:var(--white-color);
+    border-radius:var(--border-radius);
+    position: absolute;
+    left: 1.3rem;
+    top: -1rem;
+}
+.heading{
+    text-align: var(--text-align);
+    text-decoration: underline;
+}
+.hero-image{
+    width:19.2rem;
+    height:80%;
+
+}
+.wish-contain{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    overflow-x: auto;
+    height: 75vh;
+}
+.cartBtn{
+    width:19.2rem;
+    padding: var(--special-padding);
+    border:var(--border);
+    color:var(--white-color);
+    cursor: var(--cursor);
+    font-size: var(--secondary-fontsize);
+    font-weight: bold;
+    background-color:grey;
+}
+.cartBtn:hover{
+    background-color:rgb(124, 120, 120);
+}
+.wishlist{
+    position:relative;
+    height: 70vh;
+    background-color:var(--light-grey);
+}
+.heart{
+    border:var(--border);
+    position:absolute;
+    padding:0.3rem 0.3rem 0.3rem 0.3rem;
+    border-radius:var(--border-radius);
+    left:17rem;
+    top:.2rem;
+}
+.price-deatel{
+    text-align: var(--text-align);
+}
