@@ -1,0 +1,111 @@
+:root{
+    --special-fontsize:1.2rem;
+    --special-width:100%;
+    --cursor:pointer;
+    --border:0px;
+    --border-radius:50%;
+    --blue-color:blue;
+    --special-padding:0.5rem;
+    --secondary-padding:1.8rem;
+    --primary-color:rgb(35, 35, 65);
+    --secondary-color:rgb(169, 165, 177);
+    --white-color:white;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navigation-bar {
+    display: flex;
+    background-color: var(--primary-color);
+    justify-content: space-between;
+    padding: var(--special-padding);
+}
+.side-nav-section {
+    display: flex;
+    width: 20rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.title {
+    font-size:var(--secondary-padding);
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+    color:var(--white-color);
+}
+.search-bar {
+    width: 40%;
+    font-size: var(--special-fontsize);
+    padding: var(--special-padding);
+    margin: 1rem 0;
+}
+.login-btn {
+    font-size: var(--special-fontsize);
+    padding: .5rem .8rem;
+}
+.btn {
+    font-size:var(--secondary-padding);
+    font-weight: bold;
+    position: relative;
+}
+.badge-wishlist {
+    font-size: var(--special-fontsize);
+    background-color:var(--blue-color);
+    padding: .2rem .4rem;
+    color:var(--white-color);
+    border-radius:var(--border-radius);
+    position: absolute;
+    left: 1.3rem;
+    top: -1rem;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(199, 195, 195);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.login{
+    width: 20rem;
+    display:flex;
+    flex-direction:column;
+    background-color:var(--secondary-color);
+    align-items:center;
+    gap: 0.7rem ;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+.login-lable{
+    display:block;
+    width: 16rem;
+    padding:var(--special-padding);
+}
+.rememberBtn{
+    cursor: var(--cursor);
+}
+.forget-link{
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.loginBtn{
+    background-color:rgb(49, 132, 165);
+    width: 16rem;
+    font-size:var(--special-fontsize);
+    padding:var(--special-padding);
+    color:var(--white-color);
+    border:var(--border);
+    cursor: var(--cursor);
+}
+.loginBtn:hover{
+    background-color:rgb(78, 137, 160);
+}
+.CreateBtn{
+    border:var(--border);
+    background-color:var(--white-color);
+    margin-bottom: 0.3rem;
+    cursor: var(--cursor);
+}
