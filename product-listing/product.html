@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Listing-Page</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navigation-bar">
+            <a class="title" href="/landing-page/index.html">Rolex watches Store</a>
+            <input class="search-bar" type="text" placeholder="&#128269; Search">
+            <ul class="side-nav-section">
+                <li><button class="login-btn"><a href="/landing-page/index.html">LogOut</a></button></li>
+                <li><a class="wishlist-btn btn" href="/whishlist/wishlist.html">❤️<span
+                            class="badge-wishlist">5</span></a></li>
+                <li><a class="add-cart-btn btn" href="/my cart/cart.html"> &#128722; <span
+                            class="badge-wishlist">2</span></a></li>
+            </ul>
+        </nav>
+    </header>
+      <main class="main-container">
+        <div class="filter-container">
+            <div class="filter">
+                <p>Filters</p>
+                <button class="clearBtn">Clear</button>
+            </div>
+            <p><strong> Price </strong></p>
+            <div class="price-range">
+                <p>1k</p>
+                <p>2k</p>
+                <p>5k</p>
+            </div>
+            <input type="range" min="50" max="200" value="120" class="range">
+            <p><strong> Category </strong></p>
+            <div class="category">
+                <input type="checkbox" id="category-type">
+                Men Rolex watches
+            </div>
+            <div class="category">
+                <input type="checkbox" id="category-type">
+                Women Rolex watches
+            </div>
+
+            <div class="rating">
+                <p><strong> Rating </strong></p>
+                <div class="rating-point filter-lable">
+                    <input type="radio" name="rating" value="1" class="rating">
+                    4 Stars & above
+                </div>
+                <div class="rating-point filter-lable{">
+                    <input type="radio" name="rating" value="2" class="rating">
+                    3 Stars & above
+                </div>
+                <div class="rating-point filter-lable{">
+                    <input type="radio" name="rating" value="3" class="rating">
+                    2 Stars & above
+                </div>
+                <div class="rating-point filter-lable{">
+                    <input type="radio" name="rating" value="4" class="rating">
+                    1 Stars & above
+                </div>
+            </div>
+            <div class="sort">
+                <p><strong> Sort by </strong></p>
+                <div class="sort-item filter-lable{">
+                    <input type="radio" name="sort" value="1" class="sort-by">
+                    Price-Low to High
+                </div>
+                <input type="radio" name="sort" value="2" class="sort-by">
+                Price-High to Low
+            </div>
+        </div>
+        <div>
+            <H4>Showing All Products <small>(Showing 20 Products)</small></H4>
+            <div class="wish-contain">              
+                <div class="wishlist">
+                    <img class="hero-image" src="rolex1.jpg"  alt="img error">
+                    <button class="heart"><i class="fa fa-heart" style="font-size:21px;color:red"></i></button>
+                    <p class="price-detail">Men Premium Rolex Watch</p>
+                    <h3 class="price-detail">$500</h3>
+                    <button class="cartBtn cartBtn-blue">Go to cart</button>
+                </div>
+                <div class="wishlist">
+                    <img class="hero-image" src="rolex2.jpg"  alt="img error">
+                    <button class="heart"><i style="font-size:21px" class="fa">&#xf08a;</i></button>
+                    <p class="price-detail">Men Premium Rolex Watch</p>
+                    <h3 class="price-detail">$2000</h3>
+                    <button class="cartBtn">Move to cart</button>
+                </div>
+                <div class="wishlist">
+                    <img class="hero-image" src="rolex5.jpg"  alt="img error">
+                    <button class="heart"><i style="font-size:21px" class="fa">&#xf08a;</i></button>
+                    <p class="price-detail">Men Premium Rolex Watch</p>
+                    <h3 class="price-detail">$4000</h3>
+                    <button class="cartBtn">Move to cart</button>
+                </div>
+                <div class="wishlist">
+                    <img class="hero-image" src="rolex6.jpg"  alt="img error">
+                    <button class="heart"><i style="font-size:21px" class="fa">&#xf08a;</i> </button>
+                    <p class="price-detail">Men Premium Rolex Watch</p>
+                    <h3 class="price-detail">$1000</h3>
+                    <button class="cartBtn">Move to cart</button>
+                </div>
+                <div class="wishlist">
+                    <img class="hero-image" src="rolex7.jpg"  alt="img error">
+                    <button class="heart"><i style="font-size:21px" class="fa">&#xf08a;</i> </button>
+                    <p class="center">Men Premium Rolex Watch</p>
+                    <h3 class="center">$1200</h3>
+                    <button class="cartBtn">Move to cart</button>
+                </div>
+                <div class="wishlist">
+                    <img class="hero-image" src="rolex1.jpg"  alt="img error">
+                    <button class="heart"><i style="font-size:21px" class="fa">&#xf08a;</i> </button>
+                    <p class="price-detail">Men Premium Rolex Watch</p>
+                    <h3 class="price-detail">$1800</h3>
+                    <button class="cartBtn">Move to cart</button>
+                </div>
+                <div class="wishlist">
+                    <img class="hero-image" src="rolex6.jpg" alt="img error">
+                    <button class="heart"><i style="font-size:21px" class="fa">&#xf08a;</i> </button>
+                    <p class="price-detail">Men Premium Rolex Watch</p>
+                    <h3 class="price-detail">$3000</h3>
+                    <button class="cartBtn">Move to cart</button>
+                </div>
+                <div class="wishlist">
+                    <img class="hero-image" src="rolex7.jpg" alt="img error">
+                    <button class="heart"><i style="font-size:21px" class="fa">&#xf08a;</i> </button>
+                    <p class="price-detail">Men Premium Rolex Watch</p>
+                    <h3 class="price-detail">$2000</h3>
+                    <button class="cartBtn">Move to cart</button>
+                </div>
+                <div class="wishlist">
+                    <img class="hero-image" src="rolex2.jpg" alt="img error">
+                    <button class="heart"><i style="font-size:21px" class="fa">&#xf08a;</i> </button>
+                    <p class="price-detail">Men Premium Rolex Watch</p>
+                    <h3 class="price-detail">$1500</h3>
+                    <button class="cartBtn">Move to cart</button>
+                </div>
+                <div class="wishlist">
+                    <img class="hero-image" src="rolex1.jpg" alt="no">
+                    <button class="heart"><i style="font-size:21px" class="fa">&#xf08a;</i> </button>
+                    <p class="center">Men Premium Rolex Watch</p>
+                    <h3 class="center">$2000</h3>
+                    <button class="cartBtn">Move to cart</button>
+                </div>
+                <div class="wishlist">
+                    <img class="hero-image" src="rolex7.jpg" alt="img error">
+                    <button class="heart"><i style="font-size:21px" class="fa">&#xf08a;</i> </button>
+                    <p class="price-detail">Men Premium Rolex Watch</p>
+                    <h3 class="price-detail">$1000</h3>
+                    <button class="cartBtn">Move to cart</button>
+                </div>
+                <div class="wishlist">
+                    <img class="hero-image" src="rolex5.jpg" alt="img error">
+                    <button class="heart"><i style="font-size:21px" class="fa">&#xf08a;</i></button>
+                    <p class="price-detail">Men Premium Rolex Watch</p>
+                    <h3 class="price-detail">$2500</h3>
+                    <button class="cartBtn">Move to cart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
